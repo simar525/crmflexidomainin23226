@@ -1,8 +1,11 @@
 {
+  "redirects": [
+],
   "rewrites": [
-    {
+   {       "source": "/flexi/records",       "destination": "https://app.blue.cc/company/flexi-domain/projects/crm-project/records"     },{
       "source": "/(.*)",
       "destination": "https://app.blue.cc/$1"
  }
   ]
 }
+    
